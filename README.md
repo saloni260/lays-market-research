@@ -1,3 +1,4 @@
+
 # 📊 Lay’s Market Research — Consumer Review Analysis
 
 ## 🔍 Objective
@@ -25,6 +26,9 @@ lays-market-research/
 │   └── main.ipynb                  # Full analysis notebook
 ├── reports/
 │   └── insights_report.md          # Summary of findings
+├── images/
+│   ├── sentiment_chart.png         # Sentiment distribution chart
+│   └── keyword_chart.png           # Keyword frequency chart
 └── README.md
 ```
 
@@ -33,34 +37,38 @@ lays-market-research/
 ## 📈 Data Analysis Steps
 
 1. **Sentiment Analysis** using TextBlob
-   - Reviews labeled as Positive, Neutral, or Negative
-2. **Polarity Scoring**
-   - Sentiment strength from -1 (negative) to +1 (positive)
-3. **Keyword Extraction**
-   - Top recurring words (excluding stopwords)
-4. **Visualizations**
-   - Sentiment distribution
-   - Top keyword frequency
+2. **Polarity Scoring** (-1 to +1)
+3. **Keyword Extraction** (excluding stopwords)
+4. **Visualization** of key findings
 
 ---
 
 ## 🧠 Key Insights
 
-- **Majority sentiment**: Positive (56%)
-- **Loved for**: spice mix, crunch, freshness
-- **Improvements needed**: reduce oil, improve batch consistency
-- **Recommendations**: launch value packs, test regional flavor variants
+- **56% Positive reviews** – customers love the spice and crunch
+- **Keywords**: spicy, fresh, favorite, salty, oily, stale
+- **Suggestions**: reduce oiliness, improve consistency, launch value packs
 
 ---
 
-## 📊 Tableau Dashboard
+## 📊 Sample Visualizations
+
+### 📌 Sentiment Distribution
+![Sentiment Chart](images/sentiment_chart.png)
+
+### 📌 Top Keywords in Reviews
+![Keyword Chart](images/keyword_chart.png)
+
+---
+
+## 🌐 Tableau Dashboard
 
 > *(Add your Tableau Public link here once ready)*
 
 Includes:
-- Sentiment charts
+- Sentiment breakdown
 - Keyword cloud
-- Review table
+- Review explorer
 
 ---
 
