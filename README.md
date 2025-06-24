@@ -17,16 +17,21 @@ Analyze customer reviews of **Lay’s Magic Masala** chips to understand public 
 ## 📁 Project Structure
 
 lays-market-research/
+
 ├── data/
-│  ├── lays_reviews.csv # Raw review dat└a
+│  ├── lays_reviews.csv # Raw review data
    ── lays_reviews_cleaned.csv # Enriched with sentiment and polarity
+
 ├── notebooks/
 │ └── main.ipynb # Full analysis notebook
+
 ├── reports/
 │ └── insights_report.md # Summary of findings
+
 ├── images/
 │ ├── sentiment_chart.png # Sentiment distribution chart
 │ └── keyword_chart.png # Keyword frequency chart
+
 └── README.md
 
 
